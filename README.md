@@ -2,6 +2,7 @@
 Analyse de polarité de mots dans des commentaires avec SVM
 
 # Objectif du projet
+Le projet a pour but de nous apprendre à créer un modèle capable de prédire, de la manière la plus optimale possible, la polarité d'un mot dans une phrase. la polarité du mot peut être Positive, Négative ou Neutre. 
 
 # Contenu du projet
 ## Les données
