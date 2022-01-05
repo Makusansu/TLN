@@ -15,11 +15,11 @@ Ici la variable à prédire est la polarité (polarity) --> Polarité du terme a
 
 ### Caractéristiques utilisées 
 Dans notre cas les caractéristiques les plus importantes à utiliser sont :
-* term : le terme à étudier (dont on doit prédire la polarité)
-* text : la phrase complète dans laquelle se trouve le terme
-* senti word : les mots retenus connus de sentiword pour l'analyse
-* score by word : le score pour chaque mot connu de sentiword (le score peut etre vide, par exempe "le" n'a pas de polarité)
-* pos tag : les posTag obtenu à partir de la tokenization (CC, CD, DT, EX, FW ...) 
+* term --> le terme à étudier (dont on doit prédire la polarité)
+* text --> la phrase complète dans laquelle se trouve le terme
+* senti word --> les mots retenus connus de sentiword pour l'analyse
+* score by word --> le score pour chaque mot connu de sentiword (le score peut etre vide, par exempe "le" n'a pas de polarité)
+* pos tag --> les posTag obtenu à partir de la tokenization (CC, CD, DT, EX, FW ...) 
 
 ## Les résultats
 Je n'affiche dans ce README que les résultats obtenus avec un kernel polynomial car d'après les tests faits dans le notebook se sont les meilleurs résultats
